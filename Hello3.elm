@@ -2,7 +2,7 @@ import Html exposing (..)
 import Html.Events exposing (..)
 
 model = 0
-main = beginnerProgram { model = model, view = view, update = update }
+main = beginnerProgram { model = model, update = update, view = view }
 
 update msg model =
   if model < 4 then
